@@ -33,8 +33,20 @@ private readonly AppDbContext _appDbContext;
     {
         if(id==null) return NotFound();
         Product product = await _appDbContext.Products.FindAsync(id);
-        if(product==null) return NotFound();
-        return Json(product);
+        List<Product> products =new();
+        products.Add(product);
+        Response.Cookies.Append("basket",
+        JsonConvert.SerializeObject(products),
+        new CookieOptions{MaxAge=TimeSpan.FromHours(1)});
+      
+        return RedirectToAction(nameof(Index),"Home");
+    }
+
+         public IActionResult ShowBasket()
+    {
+   
+       string basket = Request.Cookies["basket"];
+        return Content(basket);
     }
 
 
