@@ -14,6 +14,9 @@ options.UseSqlServer(_config.GetConnectionString("DefaultConnection"));
 }
 
 );
+builder.Services.AddSession(options=>{
+ options.IdleTimeout=TimeSpan.FromSeconds(15);
+});
 
 var app = builder.Build();
 
@@ -28,6 +31,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseSession();
 
 app.UseRouting();
 

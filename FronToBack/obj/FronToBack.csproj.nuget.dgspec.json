@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\backend projects\\FronTBviewComponent\\FronToBack\\FronToBack.csproj": {}
+    "C:\\Users\\User\\Desktop\\backend projects\\SessionAndCooky\\FronToBack\\FronToBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\backend projects\\FronTBviewComponent\\FronToBack\\FronToBack.csproj": {
+    "C:\\Users\\User\\Desktop\\backend projects\\SessionAndCooky\\FronToBack\\FronToBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\backend projects\\FronTBviewComponent\\FronToBack\\FronToBack.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\backend projects\\SessionAndCooky\\FronToBack\\FronToBack.csproj",
         "projectName": "FronToBack",
-        "projectPath": "C:\\Users\\User\\Desktop\\backend projects\\FronTBviewComponent\\FronToBack\\FronToBack.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\backend projects\\SessionAndCooky\\FronToBack\\FronToBack.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\backend projects\\FronTBviewComponent\\FronToBack\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\backend projects\\SessionAndCooky\\FronToBack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
