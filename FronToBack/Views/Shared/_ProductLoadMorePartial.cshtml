@@ -1,0 +1,14 @@
+@model List<Category>
+@{
+    ViewData["Title"] = "Index";
+    Layout="~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+       <input type="hidden" value="@ViewBag.ProductCount" id="productCount">
+   @await Component.InvokeAsync("Product")
+                <div class="row justify-content-center mt-5">
+                    <button id="loadMore" class="btn-primary btn">
+                    Load More...
+                    </button>
+                </div>
+</div>
